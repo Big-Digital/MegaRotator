@@ -1,72 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Document</title>
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 302caed (New test)
-    <style>
-        body{
-            width: 3840px;
-            height: 2160px;
-            margin: 0;
-        }
+    <body style="margin:0px;padding:0px;overflow:hidden">
 
-        iframe {
-<<<<<<< HEAD
-            width: 1px;
-            min-width: 2160px;
-            height: 3840px;
-=======
-            width: 2160px !important;
-            height: 3840px !important;
-            display: flex;
-            /* margin-left: 21.9% !important;
-            margin-top: -21.9% !important; */
-        }
+        <style>
+            body {
+                width: 3840px;
+                height: 2160px;
+            }
+            iframe {
+                width: 2160px !important;
+                height: 3840px !important;
+                display: block;
+                transform: rotate(-90deg);
+                transform-origin: top right;
+                position: absolute;
+                left: -56.5%;
+                /* display: flex; */
+                /* margin-left: 21.9% !important;
+        margin-top: -21.9% !important; */
+            }
+            </style>
 
-        #camera_view {
->>>>>>> parent of 302caed (New test)
-            transform: rotate(-90deg);
-            transform-origin: top right;
-                margin-left: -56.5%;
+        <iframe id="camera_view" class="" style="background-color: #2e2e2e;"
+            src="https://app.demo.greenfeeds.ca/#/energy-tips">
+        </iframe>
 
-            /* margin-top: -12%;
-            margin-left: 10%; */
-            /* -ms-zoom: 0.75; */
-            /* -moz-transform: scale(0.75); */
-            /* -moz-transform-origin: 0 0;
-            -o-transform: scale(0.75);
-            -o-transform-origin: 0 0;
-            -webkit-transform-origin: 0 0; */
-            /* zoom: .55; */
-            /* -webkit-transform: scale(0.75); */
-        }
-    </style>
+     
 
-<<<<<<< HEAD
-    <iframe id="myIframe" src="https://app.demo.greenfeeds.ca/#/water-tips"></iframe>
-
-    
-    <script src="./js/iframeResizer.min.js"></script>
-    <script src="./js/iframeResizer.contentWindow.min.js"></script>
-    <script src="./js/app.js"></script>
-<script>
-    iFrameResize({ log: true }, "#myIframe");
-</script>
-=======
-    <iframe id="camera_view" class="" style="background-color: #2e2e2e;"
-        src="https://app.demo.greenfeeds.ca/#/energy-tips">
-    </iframe>
->>>>>>> parent of 302caed (New test)
-</body>
-
-</html>
+    </html>
